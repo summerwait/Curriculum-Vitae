@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 100px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+.main{
+    position: relative;
+}
+.main, .swiper-container, .swiper-wrapper ,.swiper-slide{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg0-1.gif") no-repeat;
+    background-size: cover;
+}
+/* 第一版 */
+.swiper-wrapper .slide1 h2{
+    position: absolute;
+    top: 2.5rem;
+    left: 0.2rem;
+    width: 6rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: 0.04rem solid yellowgreen;
+    color: yellowgreen;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.swiper-wrapper .slide1 span{
+    position: absolute;
+    display: block;
+    top: 4.2rem;
+    left: 0.2rem;
+    width: 6.06rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: yellowgreen;
+    font-size: 0.54rem;
+    text-align: center;
+}
+.swiper-wrapper .slide1 i{
+    position: absolute;
+    bottom: 1.4rem;
+    color: yellowgreen;
+    width:100%;
+    text-align:center;
+    font-style: normal;
+    font-size: 0.5rem;
+}
+.swiper-wrapper .slide1 i#date{
+    bottom:2.2rem;
+}
+#page1 h2{
+     animation: bounceInDown 3s 0s both;
+ }
+#page1 span{
+    animation: bounceInUp 3s 0s both;
+}
+#page1 i{
+    animation: bounceInUp 2s 0.5s both;
+}
+/* 第二版 */
+.slide2{
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.slide-header{
+    width: 6.36rem;
+    height: 5rem;
+    /*border: 0.02rem solid #434a54;*/
+}
+.slide-header h2:nth-child(1){
+    margin-top: 0.6rem;
+    margin-left: 0.2rem;
+    width: 4rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 0.48rem;
+    border: 0.04rem solid yellowgreen;
+}
+.slide-header h2:nth-child(2){
+    width: 4.08rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background: yellowgreen;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.48rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.slide-header p{
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+    width: 5rem;
+    color: yellowgreen;
+    font-size: 0.32rem;
+    font-weight: 600;
+}
+.slide-header p em{
+    font-style: normal;
+    color: hotpink;
+    font-size: 0.33rem;
+    font-weight: 600;
+}
+.slide-header i{
+    margin: 0.4rem auto ;
+    display: block;
+    width: 6rem;
+    height: 0.04rem;
+    background: #6b737c;
+}
+.swiper-wrapper .slide2 div:nth-child(1){
+    position: absolute;
+    top: 0.6rem;
+    left: 1.74rem;
+    width: 2.82rem;
+    height: 1.7rem;
+    border: 0.06rem solid yellowgreen;
+}
+.swiper-wrapper .slide2 div:nth-child(1) p{
+    margin-top: 0.1rem;
+    color: yellowgreen;
+    font-size: 0.32rem;
+    text-align: center;
+}
+.swiper-wrapper .slide2 div:nth-child(1) span{
+    display:block;
+    color: yellowgreen;
+    font-size: 0.92rem;
+    text-align: center;
+}
+.swiper-wrapper .slide2 div:nth-child(2) span{
+    position: absolute;
+    top: 3.8rem;
+    left: 0.28rem;
+    display: block;
+    width: 2.64rem;
+    height: 2.64rem;
+    line-height: 2.64rem;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    text-align: center;
+    color: #0000FF;
+    background: yellowgreen;
+    background:url("../img/summer429.png") no-repeat center center;
+    background-size:cover;
+}
+.swiper-wrapper .slide2 div:nth-child(2) h1{
+    position: absolute;
+    top: 4.3rem;
+    right: 0.8rem;
+    width: 2rem;
+    height: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: yellowgreen;
+}
+.swiper-wrapper .slide2 div:nth-child(2) i{
+    display: inline-block;
+    position: absolute;
+    top: 5.6rem;
+    right: 0.02rem;
+    width: 3.54rem;
+    height: 0.06rem;
+    background: #334455;
+}
+.swiper-wrapper .slide2 ul{
+    position: absolute;
+    top: 7.4rem;
+    left: 0.6rem;
+}
+.swiper-wrapper .slide2 ul li{
+    margin: 0.06rem;
+    width: 6rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.3rem;
+}
+.swiper-wrapper .slide2 ul li i{
+    display: inline-block;
+    height: 0.4rem;
+    width: 1.3rem;
+    line-height: 0.4rem;
+    font-style: normal;
+    color: yellowgreen;
+    background: #334455;
+    text-align: center;
+    margin-right: 0.1rem;
+}
+#page2 div:nth-child(1){
+    -webkit-animation: bounceInDown 3s 0s ease both;
+    animation: bounceInDown 2s 0s ease both;
+}
+#page2 div:nth-child(2) span{
+    -webkit-animation: fadeInLeft 3s 0.5s both;
+    animation: fadeInLeft 3s 0.5s both;
+}
+#page2 div:nth-child(2) h1, #page2 div:nth-child(2) i{
+    -webkit-animation: fadeInRight 3s 1s both;
+    animation: fadeInRight 3s 1s both;
+}
+#page2 ul li:nth-child(1){
+    -webkit-animation: bounceInRight 6s both;
+    animation: bounceInRight 6s both;
+}
+#page2 ul li:nth-child(1) i{
+    -webkit-animation: wobble 15s both;
+}
+#page2 ul li:nth-child(2){
+    -webkit-animation: bounceInRight 7s both;
+    animation: bounceInRight 7s both;
+}
+#page2 ul li:nth-child(2) i{
+    -webkit-animation: wobble 16s both;
+    animation: wobble 16s both;
+}
+#page2 ul li:nth-child(3){
+    -webkit-animation: bounceInRight 8s both;
+    animation: bounceInRight 8s both;
+}
+#page2 ul li:nth-child(3) i{
+    -webkit-animation: wobble 17s both;
+    animation: wobble 17s both;
+}
+#page2 ul li:nth-child(4){
+    -webkit-animation: bounceInRight 9s both;
+    animation: bounceInRight 9s both;
+}
+#page2 ul li:nth-child(4) i{
+    -webkit-animation: wobble 18s both;
+    animation: wobble 18s both;
+}
+/* 第三版*/
+.slide3{
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.swiper-wrapper .slide3 ul{
+    position: relative;
+}
+.swiper-wrapper .slide3 ul li{
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 50%;
+}
+.swiper-wrapper .slide3 ul li span{
+    margin-top: 0.26rem;
+    margin-left: 0.26rem;
+    display: block;
+    width: 1.1rem;
+    height: 1.1rem;
+    line-height: 0.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.swiper-wrapper .slide3 ul li:nth-child(1){
+    top: 0.1rem;
+    left: 1.26rem;
+    background: #6b737c;
+}
+.swiper-wrapper .slide3 ul li:nth-child(2){
+    top: 0.1rem;
+    right: 1.26rem;
+    background: pink;
+}
+.swiper-wrapper .slide3 ul li:nth-child(3){
+    top: 2rem;
+    right: 0.3rem;
+    background: yellow;
+}
+.swiper-wrapper .slide3 ul li:nth-child(4){
+    top: 3.9rem;
+    right: 1.26rem;
+    background: palegreen;
+}
+.swiper-wrapper .slide3 ul li:nth-child(5){
+    top: 3.9rem;
+    left: 1.26rem;
+    background: paleturquoise;
+}
+.swiper-wrapper .slide3 ul li:nth-child(6){
+    top: 2rem;
+    left: 0.3rem;
+    background: plum;
+}
+#page3 h2:nth-child(1){
+    -webkit-animation: bounceInDown 2s 0s both;
+    animation: bounceInDown 2s 0s both;
+}
+#page3 h2:nth-child(2){
+    -webkit-animation: bounceInUp 2s 0s both;
+    animation: bounceInUp 2s 0s both;
+}
+#page3 p {
+    -webkit-animation: move 1s 1 both;
+}
+#page3 ul li:nth-child(1){
+    -webkit-animation: zoomIn 1s 1s both;
+}
+#page3 ul li:nth-child(2){
+    -webkit-animation: zoomIn 1s 1.5s both;
+}
+#page3 ul li:nth-child(3){
+    -webkit-animation: zoomIn 1s 2s both;
+}
+#page3 ul li:nth-child(4){
+    -webkit-animation: zoomIn 1s 2.5s both;
+}
+#page3 ul li:nth-child(5){
+    -webkit-animation: zoomIn 1s 3s both;
+}
+#page3 ul li:nth-child(6){
+    -webkit-animation: zoomIn 1s 3.5s both;
+}
+/*第四版*/
+.slide4{
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.swiper-wrapper .slide4 .slide-header h2{
+    width: 2.5rem;
+}
+.swiper-wrapper .slide4 .slide-header p{
+    font-size: 0.34rem;
+}
+.swiper-wrapper .slide4 .slide-header p em{
+    font-size: 0.38rem;
+}
+.slide4 ul{
+    position: relative;
+}
+.slide4 ul li{
+    position: absolute;
+    width: 2rem;
+    height: 2.5rem;
+    border-radius: 0.1rem;
+}
+.slide4 ul li span{
+    padding: 0.15rem;
+    display: block;
+    width: 1.5rem;
+    font-size: 0.34rem;
+    font-weight: 700;
+    color: #000011;
+}
+.slide4 ul li:nth-child(1){
+    background: #800080;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+.slide4 ul li:nth-child(2){
+    background: #2489ce;
+    top: 0.6rem;
+    left: 2rem;
+}
+.slide4 ul li:nth-child(3){
+    background: #009900;
+    top: 0.4rem;
+    left: 4rem;
+}
+.slide4 ul li:nth-child(4){
+    background: #0000ed;
+    top: 3.4rem;
+    left: 0.4rem;
+}
+.slide4 ul li:nth-child(5){
+    background: #5a5a5a;
+    top: 3.2rem;
+    left: 2.4rem;
+    width: 1.8rem;
+}
+.slide4 ul li:nth-child(6){
+    background: #ff8000;
+    width: 1.8rem;
+    height: 2.7rem;
+    top: 3.4rem;
+    left: 4.4rem;
+}
+#page4 h2:nth-child(1){
+    -webkit-animation: move 1s 1 both;
+}
+#page4 h2:nth-child(2){
+    -webkit-animation: move 1s 1 both;
+}
+#page4 p{
+    -webkit-animation: fadeIn 1s 1s both;
+}
+#page4 ul li:nth-child(1){
+    -webkit-animation: bounceInLeft 1s 1s both;
+}
+#page4 ul li:nth-child(2){
+    -webkit-animation: bounceInDown 1s 1.5s both;
+}
+#page4 ul li:nth-child(3){
+    -webkit-animation: bounceInRight 1s 2s both;
+}
+#page4 ul li:nth-child(4){
+    -webkit-animation: bounceInRight 1s 2.5s both;
+}
+#page4 ul li:nth-child(5){
+    -webkit-animation: bounceInRight 1s 3s both;
+}
+#page4 ul li:nth-child(6){
+    -webkit-animation: bounceInUp 1s 3.5s both;
+}
+/* 第五版 */
+.swiper-wrapper .slide5{
+    background: url("../img/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.slide5 ul{
+    position: absolute;
+    top: 2.5rem;
+    left: 1.24rem;
+    width: 5rem;
+    height: 5rem;
+}
+.slide5 ul li{
+    float: left;
+    width: 1.84rem;
+    margin: 0.1rem;
+    height: 1.84rem;
+    line-height: 0.8rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.4rem;
+}
+.slide5 ul li:nth-child(1){
+    background: #00A000;
+}
+.slide5 ul li:nth-child(2){
+    background: #ff8000;
+}
+.slide5 ul li:nth-child(3){
+    background: #00a57f;
+}
+.slide5 ul li:nth-child(4){
+    background: #00ffff;
+}
+.slide5 h2{
+    position: absolute;
+    top: 7.3rem;
+    left: 2.1rem;
+    font-size: 0.6rem;
+    color: #fff;
+    font-weight: 400;
+}
+#page5 ul li {
+    -webkit-animation: move 1s  linear 1 both;
+}
+#page5 h2{
+    -webkit-animation: fadeInUp 1s 1s both;
+}
+@keyframes move {
+    0%{
+        transform: scale(0.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* 音乐 */
+.music{
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    z-index: 11;
+    background: url("../audio/music.svg") no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+.musicMove{
+    -webkit-animation: move1 1s linear infinite both;
+    animation: move1 1s linear infinite both;
+
+}
+@keyframes move1 {
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
